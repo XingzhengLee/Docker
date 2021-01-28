@@ -149,3 +149,6 @@ copy: copy content to image
 docker-compose build
 # run docker-compose + Dockerfile
 docker-compose up -d
+
+# run docker on WSL
+sudo service docker start
